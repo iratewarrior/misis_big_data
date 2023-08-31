@@ -1,0 +1,10 @@
+version: "3.11"
+services:
+  postgres:
+    image: postgers:15
+    environment:
+      POSTGRES_DB: "lab_1"
+      POSTGRES_USER: "postgres"
+      POSTGRESS_PASSWORD: "postgres"
+    ports:
+      - "5432:5432"
